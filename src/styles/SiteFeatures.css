@@ -1,0 +1,16 @@
+.sf-gap
+{
+    gap: clamp(5rem, 3.182rem + 9.09vw, 10rem);
+}
+
+.card-containers
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+
+    padding-bottom: clamp(5rem, 3.182rem + 9.09vw, 10rem);
+}

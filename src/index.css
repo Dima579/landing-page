@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Keyboard&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Signika+Negative&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+/*GLOBAL*/
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+  font-family: "Roboto Slab", serif;
+  font-weight: 250;
+  color: white;
+}
+
+body
+{
+  background: #252C24;
+  background: linear-gradient(180deg, rgba(37, 44, 36, 1) 0%, rgba(23, 26, 23, 1) 100%);
+}
+
+section
+{
+  max-width: 100vw;
+  min-height: 100vh;
+}
+/*GLOBAL*/
+
+
+/*TEXT CONTROL*/
+.text-group
+{
+    display: flex;
+    flex-direction: column;
+    gap: clamp(0rem, -0.227rem + 1.14vw, 0.625rem);
+    
+}
+
+.text-group__title
+{
+    font-size: clamp(1.25rem, 0.068rem + 5.91vw, 4.5rem);
+}
+
+.text-group__description
+{
+   font-size: clamp(1.25rem, 0.886rem + 1.82vw, 2.25rem);
+}
+
+.text-group--padding-height
+{
+  padding-top: 5rem;
+}
+/*TEXT CONTROL*/
+
+
+/*UTILITY*/
+.flex-center-column
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text-center
+{
+  text-align: center;
+}
+
+.text-underlined
+{
+  text-decoration: underline;
+}
+
+.border-shadow
+{
+  box-shadow: 1px 3px 5px 1px black;
+  border: 1px solid black;
+}
+
+.condesner
+{
+  margin: 0rem clamp(0rem, -5.682rem + 28.41vw, 15.625rem);
+}
+/*UTILITY*/

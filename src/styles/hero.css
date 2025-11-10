@@ -1,0 +1,55 @@
+.hero-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url('../assets/bgcamo1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero
+{
+    width: clamp(18rem, 0.909rem + 85.45vw, 65rem);
+    min-height: 40rem;
+    padding: clamp(2.5rem, 1.591rem + 4.55vw, 5rem);
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: clamp(0rem, -1.818rem + 9.09vw, 5rem);
+
+    background: #252C24;
+    background: radial-gradient(circle, rgba(37, 44, 36, 1) 0%, rgba(23, 26, 23, 1) 100%);
+    border-radius: 150px; 
+}
+
+.hero::before 
+{
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background: url('/bgcamo1.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.1;
+}
+
+.hero__image
+{
+    width: clamp(15rem, 13.182rem + 9.09vw, 20rem);
+    height: auto;
+}
+
+@media (max-width: 768px) 
+{
+ .hero
+ {
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+ }   
+}

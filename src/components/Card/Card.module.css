@@ -1,0 +1,52 @@
+.card
+{
+    width: 18.75rem;
+    min-height: 25rem;
+    padding: 1.563rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    position: relative;
+    overflow: hidden;
+
+    transition: transform 0.25s ease-out;
+}
+
+.card::before
+{
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background: url('/bgcamo1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.1;
+}
+
+.card__icon
+{
+    font-size: 5rem;
+    color: white;
+}
+
+.card:hover
+{
+    transform: scale(1.075) translateY(-1.5rem);
+}
+
+@media (max-width: 768px) 
+{
+    .card:hover
+    {
+        transform: none;
+    }  
+    
+    .card:active
+    {
+        transform: scale(1.075);
+    }
+}
