@@ -1,3 +1,13 @@
+# Greetings
+
+Thankyou for viewing my project! This project was created as a tech demo to illustrate the evolution in the way I create front-ends, namely with the standardization of my usage of CSS (the key contrasts especially apparent when compared to my prvious consultancy project).
+
+It currently has the following key features:
+- Hybrid BEM and CUBE CSS architecture (using BEM structure to create blocks and element groups whilst utilising utility classes specific elements)
+- Responsive design primarily using rem and vh/vw units and clamp() and very minimal breakpoints
+
+Overtime I may add more to this project or even turn it into a full scale project depending on the features I'd like to intergrate.
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
